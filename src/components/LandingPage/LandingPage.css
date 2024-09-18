@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, black, #001344);
+    color: #fff;
+  }
+  
+  .landing-container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.17);
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+    max-width: 90%;
+  }
+  
+  .landing-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .landing-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.1rem;
+  }
+  
+  .landing-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #465cda;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .landing-container button:hover {
+    background-color: #66a6ff;
+    transform: translateY(-5px);
+  }
+  
+  .landing-container button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .landing-container {
+      padding: 1.75rem;
+    }
+  
+    .landing-container h1 {
+      font-size: 2.25rem;
+      margin-bottom: 1.75rem;
+    }
+  
+    .landing-container button {
+      padding: 0.45rem 0.9rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .landing-container {
+      padding: 1.5rem;
+    }
+  
+    .landing-container h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .landing-container button {
+      padding: 0.4rem 0.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .landing-container {
+      padding: 1.25rem;
+    }
+  
+    .landing-container h1 {
+      font-size: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+  
+    .landing-container button {
+      padding: 0.35rem 0.7rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .landing-container {
+      padding: 1rem;
+    }
+  
+    .landing-container h1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .landing-container button {
+      padding: 0.3rem 0.6rem;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .landing-container h1 {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+  
+    .landing-container button {
+      padding: 0.25rem 0.5rem;
+    }
+  }
+  
