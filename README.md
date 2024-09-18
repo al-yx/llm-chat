@@ -18,6 +18,6 @@ The backend is a FastAPI server providing endpoints for models and streaming res
 - **Fetching Models**: React calls `/models` to get available models.
 - **Handling Chat Requests**: React sends a `GET` request to `/streamanswer` with `model` and `question`. Receives and displays streamed response.
 
-##By:Shruti Kumari
+### By:Shruti Kumari
 
 
